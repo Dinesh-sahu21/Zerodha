@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    padding: 0 150px;
+    border-bottom: 0.2px solid #e0e0e0;
+}
+
+.right-header ul{
+    display: flex;
+    gap:40px;
+    list-style: none;   
+}
+
+.right-header ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.right-header ul li a:hover {
+    color: #387ed1;
+}
